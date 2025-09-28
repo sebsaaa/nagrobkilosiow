@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakład Kamieniarski Łosiów | Nagrobki granitowe Opole, Brzeg, woj. opolskie</title>
+    <meta name="description"
+        content="Rodzinna firma z 30-letnim doświadczeniem. Nagrobki granitowe: pojedyncze, podwójne, urnowe, dziecięce. Łosiów, Opole, Brzeg. Sprawdź ofertę!">
+    <meta name="keywords"
+        content="nagrobki Opole, zakład kamieniarski, nagrobki granitowe, pomniki Brzeg, kamieniarz Łosiów, nagrobki dziecięce, urnowe, podwójne, skałkowe, galanteria nagrobkowa">
+    <meta name="author" content="Sebastian Kuliński" />
+    <meta name="copyright" content="© Magdalena Terlecka, Nagrobki Łosiów" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="resources/text.png" class="logo" alt="Logo Nagrobki Łosiów">
+        </div>
+        <div class="links">
+            <a href="/" class="nav_button">Strona Główna</a>
+            <a href="#o_nas" class="nav_button">O nas</a>
+            <a href="#offer" class="nav_button">Oferta</a>
+            <a href="#opinie" class="nav_button">Opinie</a>
+            <div class="dropdown" onmouseenter="showMenu(this)" onmouseleave="hideMenu(this)">
+                <a href="galeria.php" class="nav_button">Galeria</a>
+                <div class="dropdown_bridge"></div>
+                <div class="dropdown_menu">
+                    <a href="galeria.php#pojedyncze">Nagrobki Pojedyncze</a>
+                    <a href="galeria.php#podwojne">Nagrobki Podwójne</a>
+                    <a href="galeria.php#skalkowe">Nagrobki Skałkowe</a>
+                    <a href="galeria.php#urnowe">Nagrobki Urnowe</a>
+                    <a href="galeria.php#dzieciece">Nagrobki Dziecięce</a>
+                    <a href="galeria.php#galanteria">Galanteria Nagrobkowa</a>
+                </div>
+            </div>
+            <a href="#contact" class="nav_button">Kontakt</a>
+            <div class="navbar_tel">
+                <img src="resources/icons/tel_gold.png" class="icon" alt="Ikona telefonu">+48 504 780 395
+            </div>
+        </div>
+        <div class="nav_menu" onclick="toggleNavMenu()"> <img src="resources/icons/menu-icon.png" alt="Ikona menu">
+        </div>
+        <div class="nav_menu_body">
+            <a href="/" class="mnav_button">Strona Główna<div class="mline"></div></a>
+            <a href="#o_nas" class="mnav_button">O nas<div class="mline"></div></a>
+            <a href="#opinie" class="mnav_button">Opinie<div class="mline"></div></a>
+            <div class="mdropdown" onclick="mshowMenu(this)">
+                <a class="mnav_button">Galeria<div class="mline"></div></a>
+                <div class="mdropdown_menu">
+                    <a href="galeria.php#pojedyncze">Nagrobki Pojedyncze</a>
+                    <a href="galeria.php#podwojne">Nagrobki Podwójne</a>
+                    <a href="galeria.php#skalkowe">Nagrobki Skałkowe</a>
+                    <a href="galeria.php#urnowe">Nagrobki Urnowe</a>
+                    <a href="galeria.php#dzieciece">Nagrobki Dziecięce</a>
+                    <a href="galeria.php#galanteria">Galanteria Nagrobkowa</a>
+                </div>
+            </div>
+            <a href="#contact" class="mnav_button">Kontakt<div class="mline"></div></a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="img">
+            <div class="quote_parent">
+                <p class="quote">Z szacunkiem dla pamięci,<br> z troską o detale.</p>
+            </div>
+        </div>
+        <div class="about_us" id="o_nas">
+            <p class="title">O NAS</p>
+            <div class="container">
+                <div class="text-section">
+                    <p class="content">
+                        Nagrobki Łosiów to rodzinna firma z ponad 30 letnim doświadczeniem, specjalizująca się w
+                        projektowaniu, produkcji i montażu nagrobków. Działamy z pasją i szacunkiem do tradycji,
+                        oferując naszym Klientom trwałe i estetyczne pomniki, które stanowią godne upamiętnienie
+                        bliskich.
+                    </p>
+                    <div class="line"></div>
+                </div>
+                <img src="resources/plac1.jpeg" class="about-image" alt="Nagrobki granitowe na placu w Łosiowie">
+            </div>
+            <div class="container">
+                <img src="resources/plac3.jpg" class="about-image" alt="Kamieniarz przy pracy przy nagrobku">
+                <div class="text-section">
+                    <p class="content">
+                        W naszej ofercie znajdują się zarówno klasyczne, jak i nowoczesne nagrobki wykonane z najwyższej
+                        jakości granitu. Zapewniamy kompleksową obsługę – od indywidualnego projektu, przez wykonanie,
+                        aż po montaż na cmentarzu.
+                    </p>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="text-section">
+                    <p class="content">
+                        Dbamy o każdy detal, bo wiemy, jak ważne jest, by miejsce spoczynku było nie tylko piękne, ale i
+                        trwałe. Działamy głównie na terenie województwa opolskiego, ale realizujemy również zamówienia z
+                        innych regionów Polski
+                    </p>
+                    <div class="line"></div>
+                </div>
+                <img src="resources/plac2.jpg" class="about-image" alt="Gotowe nagrobki granitowe przy zakładzie">
+            </div>
+        </div>
+
+        <div class="offer_section" id="offer">
+            <div class="offer">
+                <div class="offer_container">
+                    <p class="title" style="padding-bottom: 30px;">Oferta</p>
+                    <div class="offer_blocks">
+                        <div class="offer_block">
+                            <div class="offer_block_title">Nagrobki<br>Pojedyncze</div>
+                            <div class="offer_block_content">
+                                <img src="resources/pojedyncze.jpg" class="offer_img" alt="Nagrobek pojedynczy granitowy">
+                                <a href="galeria.php#pojedyncze" class="offer_button">Zobacz Wiecej</a>
+                            </div>
+                        </div>
+                        <div class="offer_block">
+                            <div class="offer_block_title">Nagrobki<br>Podwójne</div>
+                            <div class="offer_block_content">
+                                <img src="resources/podwojne.jpg" class="offer_img" alt="Nagrobek podwójny granitowy">
+                                <a href="galeria.php#podwojne" class="offer_button">Zobacz Wiecej</a>
+                            </div>
+                        </div>
+                        <div class="offer_block">
+                            <div class="offer_block_title">Nagrobki<br>Skałkowe</div>
+                            <div class="offer_block_content">
+                                <img src="resources/skalkowe.JPG" class="offer_img" alt="Nagrobek skałkowy o naturalnym kształcie">
+                                <a href="galeria.php#skalkowe" class="offer_button">Zobacz Wiecej</a>
+                            </div>
+                        </div>
+                        <div class="offer_block">
+                            <div class="offer_block_title">Nagrobki<br>Urnowe</div>
+                            <div class="offer_block_content">
+                                <img src="resources/urnowy.jpg" class="offer_img" alt="Nagrobek urnowy z granitu">
+                                <a href="galeria.php#urnowe" class="offer_button">Zobacz Wiecej</a>
+                            </div>
+                        </div>
+                        <div class="offer_block">
+                            <div class="offer_block_title">Nagrobki<br>Dziecięce</div>
+                            <div class="offer_block_content">
+                                <img src="resources/dzieciece.png" class="offer_img" alt="Nagrobek dziecięcy z rzeźbą aniołka">
+                                <a href="galeria.php#dzieciece" class="offer_button">Zobacz Wiecej</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offer_container">
+                    <div class="left">
+                        <p class="offer_subtitle">Usługi Dodatkowe</p>
+                        <div class="offer_blocks">
+                            <div class="offer_block_small">
+                                <div class="offer_block_title_small">Układanie<br>Kostki</div>
+                                <div class="offer_block_content">
+                                    <img src="resources/kostka.jpg" class="offer_img_small" alt="Układanie kostki brukowej przy nagrobku">
+                                    <a href="galeria.php" class="offer_button_small">Zobacz Wiecej</a>
+                                </div>
+                            </div>
+                            <div class="offer_block_small">
+                                <div class="offer_block_title_small">Podnoszenie<br>Nagrobków</div>
+                                <div class="offer_block_content">
+                                    <img src="resources/podnoszenie.jpg" class="offer_img_small" alt="Podnoszenie zapadniętego nagrobka">
+                                    <a href="galeria.php" class="offer_button_small">Zobacz Wiecej</a>
+                                </div>
+                            </div>
+                            <div class="offer_block_small">
+                                <div class="offer_block_title_small">Renowacja<br>Napisów</div>
+                                <div class="offer_block_content">
+                                    <img src="resources/renowacja.jpg" class="offer_img_small" alt="Renowacja napisów na pomniku">
+                                    <a href="galeria.php" class="offer_button_small">Zobacz Wiecej</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p class="offer_subtitle">Galanteria Nagrobkowa</p>
+                        <div class="offer_blocks">
+                            <div class="offer_block_small">
+                                <div class="offer_block_title_small">Flakony</div>
+                                <div class="offer_block_content">
+                                    <img src="resources/flakon.png" class="offer_img_small" alt="Flakon granitowy na znicze">
+                                    <a href="galeria.php#galanteria" class="offer_button_small">Zobacz Wiecej</a>
+                                </div>
+                            </div>
+                            <div class="offer_block_small">
+                                <div class="offer_block_title_small">Akcesoria</div>
+                                <div class="offer_block_content">
+                                    <img src="resources/akcesoria.png" class="offer_img_small" alt="Akcesoria nagrobkowe: lampiony, wazony, krzyże">
+                                    <a href="galeria.php#galenteria" class="offer_button_small">Zobacz Wiecej</a>
+                                </div>
+                            </div>
+                            <div class="offer_block_small">
+                                <div class="offer_block_title_small">Krzyże</div>
+                                <div class="offer_block_content">
+                                    <img src="resources/krzyze.png" class="offer_img_small" alt="Krzyże metalowe i granitowe do nagrobków">
+                                    <a href="galeria.php#galenteria" class="offer_button_small">Zobacz Wiecej</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="opinie"></div>
+        <script src="https://static.elfsight.com/platform/platform.js"></script>
+        <div class="elfsight-app-0c46a66a-5625-4c60-afa7-15d734373d88" data-elfsight-app-lazy></div>
+        <div class="sticker"></div>
+
+        <div class="footer" id="contact">
+            <div class="contact">
+                <div class="inner">
+                    <p class="footer_title">Kontakt</p>
+                    <div class="footer_block">
+                        <p class="footer_content"><img src="resources/icons/tel.png" class="icon" alt="Ikona telefonu kontaktowego">+48 504 780 395
+                        </p>
+                        <p class="footer_content"><img src="resources/icons/email.png" class="icon" alt="Ikona e-maila">nagrobkilosiow@gmail.com
+                        </p>
+                        <p class="footer_content"><img src="resources/icons/facebook.png" class="icon" alt="Ikona Facebooka">Facebook
+                        </p>
+                        <p class="footer_content">
+                            <img src="resources/icons/place.png" class="icon" alt="Ikona lokalizacji"> Kolejowa 1a<br>49-330 Łosiów
+                        </p>
+                        <p class="footer_content">
+                            <img src="resources/icons/calendar.png" class="icon" alt="Ikona kalendarza z godzinami pracy"> Pon-Sob<br>08:00-20:00
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="loc">
+                <div style="position: relative; width: 85%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1261.0884386575988!2d17.55334940832311!3d50.79083051068571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471036b49d43833b%3A0x1e63dd300b11a9df!2sNagrobki%20%C5%81osi%C3%B3w%20-%20Zak%C5%82ad%20kamieniarski%23Nagrobki%23Narobek%23%23kamieniarz%23%23Brzeg%23Lewin%20Brzeski%23Opole%23Opolskie!5e0!3m2!1spl!2spl!4v1745756564767!5m2!1spl!2spl"
+                        style="position: absolute; bottom: 0; left: 0; width: 100%; height: 98%; border: 0; border-radius: 10px;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <p class="copy">&copy; Nagrobki Łosiów - Magdalena Terlecka 2025</p>
+        </div>
+
+        <script>
+            function showMenu(dropdown) {
+        const menu = dropdown.querySelector('.dropdown_menu');
+        clearTimeout(menu._hideTimeout);
+        menu.style.height = '22vw';
+        menu.style.pointerEvents = 'auto';
+        menu._showTimeout = setTimeout(() => {
+          menu.classList.add('overflow-visible');
+          menu._showTimeout = null;
+        }, 300);
+      }
+
+      function hideMenu(dropdown) {
+        const menu = dropdown.querySelector('.dropdown_menu');
+        clearTimeout(menu._showTimeout);
+        menu.classList.remove('overflow-visible');
+        menu.style.height = '0';
+        menu.style.pointerEvents = 'none';
+      }
+
+      function toggleNavMenu() {
+        const menu = document.querySelector('.nav_menu_body');
+        menu.classList.toggle('active');
+      }
+
+      function mshowMenu(dropdown) {
+        const menu = dropdown.querySelector('.mdropdown_menu');
+        const span = dropdown.querySelector('.span');
+        clearTimeout(menu._hideTimeout);
+        menu.style.height = '65vw';
+        menu.style.pointerEvents = 'auto';
+        span.style.transform = 'rotate(-90deg)';
+        menu._showTimeout = setTimeout(() => {
+          menu.classList.add('overflow-visible');
+          menu._showTimeout = null;
+        }, 300);
+      }
+        </script>
+
+        <script type="application/ld+json">
+            {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Nagrobki Łosiów",
+      "image": "https://nagrobkiłosiów.pl/resources/plac1.jpeg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kolejowa 1a",
+        "addressLocality": "Łosiów",
+        "postalCode": "49-330",
+        "addressCountry": "PL"
+      },
+      "telephone": "+48 504 780 395",
+      "url": "https://nagrobkiłosiów.pl",
+      "openingHours": "Mo-Sa 08:00-20:00"
+    }
+        </script>
+</body>
+
+</html>
